@@ -9,17 +9,15 @@
 
     <TextView
         android:id="@+id/third_page_textView"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
         android:text="@string/third_page"
-        android:layout_marginTop="120dp"
-        android:layout_marginStart="60dp"/>
+        style="@style/regular_text"
+        android:layout_marginTop="@dimen/top_margin_textView_thirdFragment"
+        android:layout_marginStart="@dimen/start_margin_textView_thirdFragment"/>
 
     <Button
         android:id="@+id/button_return_to_second_page"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
         android:text="@string/previous"
+        style="@style/button_text"
         android:layout_gravity="center"/>
 
 </LinearLayout>

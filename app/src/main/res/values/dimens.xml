@@ -1,3 +1,7 @@
 <resources>
     <dimen name="fab_margin">16dp</dimen>
+    <dimen name="fragment_layout_width_height">0dp</dimen>
+    <dimen name="top_margin_textView_thirdFragment">120dp</dimen>
+    <dimen name="start_margin_textView_thirdFragment">60dp</dimen>
+    <dimen name="regular_text_size">16sp</dimen>
 </resources>

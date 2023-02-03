@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="fab_margin">48dp</dimen>
+    <dimen name="top_margin_textView_thirdFragment">500dp</dimen>
+    <dimen name="start_margin_textView_thirdFragment">250dp</dimen>
+    <dimen name="regular_text_size">48sp</dimen>
+</resources>

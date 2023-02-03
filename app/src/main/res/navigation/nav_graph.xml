@@ -33,7 +33,7 @@
     <fragment
         android:id="@+id/ThirdFragment"
         android:name="com.example.myfirstapp.ThirdFragment"
-        android:label="fragment_third"
+        android:label="@string/third_fragment_label"
         tools:layout="@layout/fragment_third">
 
         <action

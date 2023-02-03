@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">La Mia Prima App</string>
+    <string name="action_settings">Impostazioni</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">Primo Frammento</string>
+    <string name="second_fragment_label">Secondo Frammento</string>
+    <string name="third_fragment_label">Terzo Frammento</string>
+
+    <string name="next">Prossima pagina</string>
+    <string name="previous">Pagina precedente</string>
+
+    <string name="hello_world">Ciao mondo!</string>
+    <string name="first_page">Prima Pagina</string>
+    <string name="second_page">Seconda pagina</string>
+    <string name="third_page">Terza pagina</string>
+
+</resources>
