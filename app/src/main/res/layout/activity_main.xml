@@ -17,7 +17,7 @@
             android:layout_height="?attr/actionBarSize"
             android:background="?attr/colorPrimary"
             app:popupTheme="@style/Theme.MyFirstApp.PopupOverlay"
-            app:titleTextColor="@color/white" />
+            app:titleTextColor="@color/teal_200" />
 
     </com.google.android.material.appbar.AppBarLayout>
 
@@ -30,6 +30,7 @@
         android:layout_gravity="bottom|end"
         android:layout_marginEnd="@dimen/fab_margin"
         android:layout_marginBottom="@dimen/fab_margin"
-        app:srcCompat="@android:drawable/ic_dialog_email" />
+        app:srcCompat="@android:drawable/ic_dialog_email"
+        android:contentDescription="tasto"/>
 
 </androidx.coordinatorlayout.widget.CoordinatorLayout>

@@ -14,5 +14,6 @@
     <string name="first_page">Prima Pagina</string>
     <string name="second_page">Seconda pagina</string>
     <string name="third_page">Terza pagina</string>
+    <string name="list_fragment_label">List Fragment</string>
 
 </resources>
