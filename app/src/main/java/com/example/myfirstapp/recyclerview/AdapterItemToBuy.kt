@@ -3,15 +3,17 @@ package com.example.myfirstapp.recyclerview
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import android.widget.ImageView
 import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
-import androidx.recyclerview.widget.RecyclerView.Recycler
 import com.example.myfirstapp.R
 
 class ItemToBuyViewHolder(view: View): RecyclerView.ViewHolder(view){
-    val itemToBuyByID: TextView
+    val itemToBuyText: TextView
+    val itemToBuyImage: ImageView
     init {
-        itemToBuyByID = view.findViewById(R.id.list_item_text)
+        itemToBuyText = view.findViewById(R.id.list_item_text)
+        itemToBuyImage = view.findViewById(R.id.list_item_image)
     }
 }
 
@@ -28,6 +30,7 @@ class AdapterItemToBuy(val toBuyList: List<ItemToBuy>):
     }
 
     override fun onBindViewHolder(holder: ItemToBuyViewHolder, position: Int) {
-        holder.itemToBuyByID.text = toBuyList[position].name
+        holder.itemToBuyText.text = toBuyList[position].name
+        holder.itemToBuyImage.setImageResource(toBuyList[position].drawable)
     }
 }

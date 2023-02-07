@@ -17,8 +17,8 @@
         tools:itemCount="5"/>
     <Button
         android:id="@+id/button_from_listPage_to_thirdFragment"
-        android:layout_width="match_parent"
+        android:layout_width="wrap_content"
         android:layout_height="@dimen/start_margin_textView_thirdFragment"
-        android:layout_gravity="bottom"
+        android:layout_gravity="bottom|center"
         android:text="@string/previous"/>
 </FrameLayout>

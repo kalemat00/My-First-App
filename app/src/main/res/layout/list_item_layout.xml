@@ -7,11 +7,18 @@
 
     <TextView
         android:id="@+id/list_item_text"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        style="@style/regular_text"
+        android:layout_width="wrap_content"
+        android:layout_height="90dp"
+        style="@style/regular_text.list_item_text"
 
         tools:text="wewe"/>
 
+    <ImageView
+        android:id="@+id/list_item_image"
+        android:scaleType="fitEnd"
+        android:layout_width="wrap_content"
+        android:layout_height="90dp"
+        tools:src="@drawable/shampoo"
+        />
 
 </androidx.appcompat.widget.LinearLayoutCompat>

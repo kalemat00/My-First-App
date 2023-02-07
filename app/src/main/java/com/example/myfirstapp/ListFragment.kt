@@ -7,7 +7,6 @@ import android.view.View
 import android.view.ViewGroup
 import androidx.navigation.fragment.findNavController
 import androidx.recyclerview.widget.LinearLayoutManager
-import androidx.recyclerview.widget.RecyclerView
 import com.example.myfirstapp.databinding.FragmentListBinding
 import com.example.myfirstapp.recyclerview.AdapterItemToBuy
 import com.example.myfirstapp.recyclerview.ItemToBuy
@@ -24,30 +23,26 @@ class ListFragment : Fragment() {
         binding.recyclerView.layoutManager = LinearLayoutManager(requireContext())
 
         val data = listOf(
-            ItemToBuy("shampoo"),
-            ItemToBuy("toothpaste"),
-            ItemToBuy("soap"),
-            ItemToBuy("cola"),
-            ItemToBuy("shampoo"),
-            ItemToBuy("toothpaste"),
-            ItemToBuy("soap"),
-            ItemToBuy("cola"),
-            ItemToBuy("shampoo"),
-            ItemToBuy("toothpaste"),
-            ItemToBuy("soap"),
-            ItemToBuy("cola"),
-            ItemToBuy("shampoo"),
-            ItemToBuy("toothpaste"),
-            ItemToBuy("soap"),
-            ItemToBuy("cola"),
-            ItemToBuy("shampoo"),
-            ItemToBuy("toothpaste"),
-            ItemToBuy("soap"),
-            ItemToBuy("cola"),
-            ItemToBuy("shampoo"),
-            ItemToBuy("toothpaste"),
-            ItemToBuy("soap"),
-            ItemToBuy("cola"),
+            ItemToBuy("shampoo", R.drawable.shampoo),
+            ItemToBuy("toothpaste", R.drawable.toothpaste),
+            ItemToBuy("soap", R.drawable.soap),
+            ItemToBuy("cola", R.drawable.cola),
+            ItemToBuy("shampoo", R.drawable.shampoo),
+            ItemToBuy("toothpaste", R.drawable.toothpaste),
+            ItemToBuy("soap", R.drawable.soap),
+            ItemToBuy("cola", R.drawable.cola),
+            ItemToBuy("shampoo", R.drawable.shampoo),
+            ItemToBuy("toothpaste", R.drawable.toothpaste),
+            ItemToBuy("soap", R.drawable.soap),
+            ItemToBuy("cola", R.drawable.cola),
+            ItemToBuy("shampoo", R.drawable.shampoo),
+            ItemToBuy("toothpaste", R.drawable.toothpaste),
+            ItemToBuy("soap", R.drawable.soap),
+            ItemToBuy("cola", R.drawable.cola),
+            ItemToBuy("shampoo", R.drawable.shampoo),
+            ItemToBuy("toothpaste", R.drawable.toothpaste),
+            ItemToBuy("soap", R.drawable.soap),
+            ItemToBuy("cola", R.drawable.cola)
         )
 
         binding.recyclerView.adapter = AdapterItemToBuy(data)

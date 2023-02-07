@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
@@ -11,7 +11,8 @@
         android:id="@+id/third_page_textView"
         android:text="@string/third_page"
         style="@style/regular_text"
-        android:layout_marginTop="@dimen/top_margin_textView_thirdFragment" />
+        android:layout_marginTop="@dimen/top_margin_textView_thirdFragment"
+        android:layout_gravity="center_horizontal"/>
 
     <Button
         android:id="@+id/button_return_to_second_page"
@@ -23,6 +24,6 @@
         android:id="@+id/button_go_to_list_page"
         android:text="@string/next"
         style="@style/button_text"
-        android:layout_gravity="bottom"/>
+        android:layout_gravity="bottom|center"/>
 
-</LinearLayout>
+</FrameLayout>
